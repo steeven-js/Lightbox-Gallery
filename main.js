@@ -6,7 +6,6 @@ $(document).ready(function () {
 })
 
 //
-
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
@@ -41,3 +40,9 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+//
+$('.thumb').on('click', 'img', function () {
+    $('.thumb img.active').removeClass('active');
+    $(this).addClass('active');
+});
