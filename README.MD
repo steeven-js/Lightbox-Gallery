@@ -1,5 +1,5 @@
 ```
-#Lightbox-Gallery
+# Lightbox-Gallery
 git init
 git add .
 git commit -m "first commit"
